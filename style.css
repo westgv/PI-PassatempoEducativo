@@ -24,6 +24,7 @@ body {
     display: none;
     flex-direction: column;
     cursor: pointer;
+    
 }
 
 .bar {
@@ -36,6 +37,7 @@ body {
 .menu {
     display: none;
     border: 1px solid black;
+    
 }
 
 .menu.active {
