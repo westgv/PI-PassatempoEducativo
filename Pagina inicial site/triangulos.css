@@ -1,0 +1,429 @@
+
+@media screen and (max-width: 400px) {
+    .triangulos {
+        padding: 0;
+        margin: 0;
+        height: auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .triangulos img {
+        filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%));
+    }
+    .triangulos p {
+        font-family: McLaren;
+        color: white;
+    }
+    .Sobre-Nos {
+        position: absolute;
+        right: 0;
+        object-fit: cover;
+
+    }
+    .Sobre-Nos img {
+        width: 100%;
+        max-width: 300px;
+    }
+    .Sobre-Nos p {
+        font-size: 40px;
+        overflow: visible;
+        position: absolute;
+        top: 140px;
+        left: 70px;
+    }
+    .Governanca {
+        object-fit: cover;
+        position: absolute;
+        top: 650px;
+        left: 0;
+    }
+    .Governanca img {
+        width: 100%;
+        max-width: 300px;
+    }
+    .Governanca p {
+        font-size: 40px;
+        overflow: visible;
+        position: absolute;
+        top: 140px;
+        left: 5px;
+    }
+    .Projetos {
+        object-fit: cover;
+        position: absolute;
+        top: 1050px;
+        right: 0;
+        z-index: 1;
+    }
+    .Projetos img {
+        width: 100%;
+        max-width: 300px;
+    }
+    .Projetos p {
+        font-size: 40px;
+        overflow: visible;
+        position: absolute;
+        top: 140px;
+        left: 90px;
+    }
+    .Projetos2 {
+        object-fit: cover;
+        position: absolute;
+        top: 1300px;
+        right: 0;
+    }
+    .Projetos2 img {
+        width: 100%;
+        max-width: 350px;
+    }
+    .Projetos2 p {
+        color: black !important;
+    }
+    .Projetos2 .teceedu {
+        padding: 5px;
+        font-size: 10px;
+        overflow: visible;
+        position: absolute;
+        background-color: white;
+        border-radius: 30%;
+        top: 120px;
+        left: 70px;
+    }
+    .Projetos2 .cursoprof {
+        padding: 5px;
+        font-size: 10px;
+        overflow: visible;
+        position: absolute;
+        background-color: white;
+        border-radius: 30%;
+        top: 120px;
+        left: 200px;
+    }
+    .Projetos2 .apadrinhamento {
+        padding: 5px;
+        font-size: 10px;
+        overflow: visible;
+        position: absolute;
+        background-color: white;
+        border-radius: 30%;
+        top: 180px;
+        left: 60px;
+    }
+    .Projetos2 .empresafeliz {
+        padding: 5px 30px;
+        font-size: 10px;
+        overflow: visible;
+        position: absolute;
+        background-color: white;
+        border-radius: 30%;
+        top: 180px;
+        left: 202px;
+    }
+    .Projetos2 .veja {
+        color: black;
+        font-size: 23px;
+        overflow: visible;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+    }
+
+    .Agenda2030 {
+        object-fit: cover;
+        position: absolute;
+        top: 1650px;
+        left: 0;
+    }
+    .Agenda2030 img {
+        width: 100%;
+        max-width: 300px;
+    }
+    .Agenda2030 p {
+        font-size: 37px;
+        overflow: visible;
+        position: absolute;
+        top: 120px;
+        left: 4px;
+    }
+    .Doar {
+        object-fit: cover;
+        position: absolute;
+        top: 2050px;
+        right: 0;
+    }
+    .Doar img {
+        width: 100%;
+        max-width: 300px;
+    }
+    .Doar p {
+        font-size: 45px;
+        overflow: visible;
+        position: absolute;
+        top: 100px;
+        left: 120px;
+    }
+    .Voluntariar {
+        object-fit: cover;
+        position: absolute;
+        top: 2450px;
+        left: 0;
+        z-index: 1;
+    }
+    .Voluntariar img {
+        width: 100%;
+        max-width: 250px;
+    }
+    .Voluntariar p {
+        font-size: 37px;
+        overflow: visible;
+        position: absolute;
+        top: 80px;
+        left: 10px;
+    }
+    .Voluntariar2 {
+        object-fit: cover;
+        position: absolute;
+        top: 2640px;
+        left: 0;
+    }
+    .Voluntariar2 img {
+        width: 100%;
+        max-height: 200px;
+    }
+    .Voluntariar2 .venha {
+        color: black;
+        font-size: 15px;
+        overflow: visible;
+        position: absolute;
+        top: 150px;
+        left: 120px;
+    }
+    .Voluntariar2 .contate_nos {
+        font-family: McLaren;
+        padding: 10px;
+        border-radius: 30%;
+        color: black;
+        background-color: white;
+        font-size: 27px;
+        overflow: visible;
+        position: absolute;
+        top: 80px;
+        left: 170px;
+    }
+}
+@media screen and (min-width: 768px) {
+
+    .triangulos {
+        padding: 0;
+        margin: 0;
+        height: auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .triangulos img {
+        filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%));
+    }
+    .triangulos p {
+        font-family: McLaren;
+        color: white;
+    }
+    .Sobre-Nos {
+        top: 1200px;
+        position: absolute;
+        right: 0;
+        object-fit: cover;
+
+    }
+    .Sobre-Nos img {
+        width: 100%;
+        max-width: 700px;
+    }
+    .Sobre-Nos p {
+        font-size: 90px;
+        overflow: visible;
+        position: absolute;
+        top: 350px;
+        left: 170px;
+    }
+    .Governanca {
+        object-fit: cover;
+        position: absolute;
+        top: 2000px;
+        left: 0;
+    }
+    .Governanca img {
+        width: 100%;
+        max-width: 700px;
+    }
+    .Governanca p {
+        font-size: 40px;
+        overflow: visible;
+        position: absolute;
+        top: 140px;
+        left: 5px;
+    }
+    .Projetos {
+        object-fit: cover;
+        position: absolute;
+        top: 2800px;
+        right: 0;
+        z-index: 1;
+    }
+    .Projetos img {
+        width: 100%;
+        max-width: 700px;
+    }
+    .Projetos p {
+        font-size: 90px;
+        overflow: visible;
+        position: absolute;
+        top: 350px;
+        left: 200px;
+    }
+    .Projetos2 {
+        object-fit: cover;
+        position: absolute;
+        top: 3410px;
+        right: 0;
+    }
+    .Projetos2 img {
+        width: 100%;
+        max-width: 750px;
+    }
+    .Projetos2 p {
+        color: black !important;
+    }
+    .Projetos2 .teceedu {
+        padding: 5px;
+        font-size: 20px;
+        overflow: visible;
+        position: absolute;
+        background-color: white;
+        border-radius: 30%;
+        top: 370px;
+        left: 150px;
+    }
+    .Projetos2 .cursoprof {
+        padding: 5px;
+        font-size: 22px;
+        overflow: visible;
+        position: absolute;
+        background-color: white;
+        border-radius: 30%;
+        top: 240px;
+        left: 450px;
+    }
+    .Projetos2 .apadrinhamento {
+        padding: 5px;
+        font-size: 24px;
+        overflow: visible;
+        position: absolute;
+        background-color: white;
+        border-radius: 30%;
+        top: 240px;
+        left: 90px;
+    }
+    .Projetos2 .empresafeliz {
+        padding: 5px 30px;
+        font-size: 25px;
+        overflow: visible;
+        position: absolute;
+        background-color: white;
+        border-radius: 30%;
+        top: 370px;
+        left: 450px;
+    }
+    .Projetos2 .veja {
+        color: black;
+        font-size: 50px;
+        overflow: visible;
+        position: absolute;
+        top: 45px;
+        left: 40px;
+    }
+
+    .Agenda2030 {
+        object-fit: cover;
+        position: absolute;
+        top: 3900px;
+        left: 0;
+    }
+    .Agenda2030 img {
+        width: 100%;
+        max-width: 700px;
+    }
+    .Agenda2030 p {
+        font-size: 37px;
+        overflow: visible;
+        position: absolute;
+        top: 120px;
+        left: 4px;
+    }
+    .Doar {
+        object-fit: cover;
+        position: absolute;
+        top: 4700px;
+        right: 0;
+    }
+    .Doar img {
+        width: 100%;
+        max-width: 700px;
+    }
+    .Doar p {
+        font-size: 90px;
+        overflow: visible;
+        position: absolute;
+        top: 280px;
+        left: 290px;
+    }
+    .Voluntariar {
+        object-fit: cover;
+        position: absolute;
+        top: 5400px;
+        left: 0;
+        z-index: 1;
+    }
+    .Voluntariar img {
+        width: 100%;
+        max-width: 650px;
+    }
+    .Voluntariar p {
+        font-size: 90px;
+        overflow: visible;
+        position: absolute;
+        top: 270px;
+        left: 10px;
+    }
+    .Voluntariar2 {
+        object-fit: cover;
+        position: absolute;
+        top: 5910px;
+        left: 0;
+    }
+    .Voluntariar2 img {
+        width: 100%;
+        max-height: 600px;
+    }
+    .Voluntariar2 .venha {
+        color: black;
+        font-size: 50px;
+        overflow: visible;
+        position: absolute;
+        top: 60%;
+        left: 37%;
+    }
+    .Voluntariar2 .contate_nos {
+        font-family: McLaren;
+        padding: 10px;
+        border-radius: 30%;
+        color: black;
+        background-color: white;
+        font-size: 90px;
+        overflow: visible;
+        position: absolute;
+        top: 130px;
+        left: 45%;
+    }
+
+}
+
