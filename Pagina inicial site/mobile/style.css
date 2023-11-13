@@ -21,17 +21,11 @@ body {
 
 }
 .menu-toggle {
+    
     display: none;
     flex-direction: column;
     cursor: pointer;
     
-}
-
-.bar {
-    width: 25px;
-    height: 3px;
-    background-color: #333;
-    margin: 3px 0;
 }
 
 .menu {
@@ -83,6 +77,14 @@ a:focus {
     }
     header {
         display: flex;
+    }
+    .bar {
+        display: flex;
+        justify-content: flex-end;
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+        margin: 3px 0;
     }
     #paginas {
         padding-top: 1%;
@@ -174,5 +176,5 @@ a:focus {
         border-radius: 40px;
 
     }
-
+    
 }
