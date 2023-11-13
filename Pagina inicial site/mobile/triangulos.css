@@ -1,4 +1,27 @@
-
+.linktriangulos a:link, a:visited {
+    color: white;
+}
+.linktriangulos a:hover, a:focus{
+    color: white;
+}
+/* .Sobre-Nos img a:hover, a:focus, .Sobre-Nos p a:hover, a:focus{
+    filter: drop-shadow(0px 0px 20px rgba(130, 149, 255, 0.9));
+}
+.Governanca img a:hover, a:focus, .Governanca p a:hover, a:focus{
+    filter: drop-shadow(0px 0px 20px rgba(255, 205, 130, 0.9));
+}
+.Projetos img a:hover, a:focus, .Projetos p a:hover, a:focus{
+    filter: drop-shadow(0px 0px 20px rgba(253, 255, 130, 0.9));
+}
+.Agenda2030 img a:hover, a:focus, .Agenda2030 p a:hover, a:focus{
+    filter: drop-shadow(0px 0px 20px rgba(176, 255, 130, 0.9));
+}
+.Doar img a:hover, a:focus, .Doar p a:hover, a:focus{
+    filter: drop-shadow(0px 0px 20px rgba(255, 130, 130, 0.9));
+}
+.Voluntariar img a:hover, a:focus, .Voluntariar p a:hover, a:focus{
+    filter: drop-shadow(0px 0px 20px rgba(251, 130, 255, 0.9));
+} */
 @media screen and (max-width: 400px) {
     .triangulos {
         padding: 0;
@@ -223,12 +246,13 @@
     .triangulos img {
         filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%));
     }
+    
     .triangulos p {
         font-family: McLaren;
         color: white;
     }
     .Sobre-Nos {
-        top: 1200px;
+        top: 170%;
         position: absolute;
         right: 0;
         object-fit: cover;
@@ -248,7 +272,7 @@
     .Governanca {
         object-fit: cover;
         position: absolute;
-        top: 2000px;
+        top: 270%;
         left: 0;
     }
     .Governanca img {
@@ -265,7 +289,7 @@
     .Projetos {
         object-fit: cover;
         position: absolute;
-        top: 2800px;
+        top: 360%;
         right: 0;
         z-index: 1;
     }
@@ -283,7 +307,7 @@
     .Projetos2 {
         object-fit: cover;
         position: absolute;
-        top: 3410px;
+        top: 430%;
         right: 0;
     }
     .Projetos2 img {
@@ -345,7 +369,7 @@
     .Agenda2030 {
         object-fit: cover;
         position: absolute;
-        top: 3800px;
+        top: 500%;
         left: 0;
     }
     .Agenda2030 img {
@@ -362,7 +386,7 @@
     .Doar {
         object-fit: cover;
         position: absolute;
-        top: 4700px;
+        top: 590%;
         right: 0;
     }
     .Doar img {
@@ -379,7 +403,7 @@
     .Voluntariar {
         object-fit: cover;
         position: absolute;
-        top: 5400px;
+        top: 690%;
         left: 0;
         z-index: 1;
     }
@@ -397,7 +421,7 @@
     .Voluntariar2 {
         object-fit: cover;
         position: absolute;
-        top: 5910px;
+        top: 742%;
         left: 0;
     }
     .Voluntariar2 img {
@@ -425,7 +449,7 @@
         left: 45%;
     }
 
-}
+} 
 @media screen and (min-width: 401px) and (max-width: 800px) {
 
     .triangulos {
