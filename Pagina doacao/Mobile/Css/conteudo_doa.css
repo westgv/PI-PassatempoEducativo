@@ -6,7 +6,7 @@ main {
     background-image: url("../imagens-doacoes/image-599.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500%;
+    height: 100%;
     width: 100%;
     margin-top: 10%;
 }
@@ -17,6 +17,8 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     height: 250%;
+    width: 100%;
+    margin-top: 10%;
 }
 
 #titulo_doacoes h1 {
