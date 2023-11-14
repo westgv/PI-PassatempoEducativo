@@ -263,11 +263,11 @@
         max-width: 700px;
     }
     .Sobre-Nos p {
-        font-size: 90px;
+        font-size: 500%;
         overflow: visible;
         position: absolute;
-        top: 350px;
-        left: 170px;
+        top: 45%;
+        left: 27%;
     }
     .Governanca {
         object-fit: cover;
@@ -280,11 +280,11 @@
         max-width: 700px;
     }
     .Governanca p {
-        font-size: 40px;
+        font-size: 500%;
         overflow: visible;
         position: absolute;
-        top: 140px;
-        left: 5px;
+        top: 45%;
+        left: 3%;
     }
     .Projetos {
         object-fit: cover;
@@ -298,16 +298,16 @@
         max-width: 700px;
     }
     .Projetos p {
-        font-size: 90px;
+        font-size: 500%;
         overflow: visible;
         position: absolute;
-        top: 350px;
-        left: 200px;
+        top: 45%;
+        left: 30%;
     }
     .Projetos2 {
         object-fit: cover;
         position: absolute;
-        top: 430%;
+        top: 445%;
         right: 0;
     }
     .Projetos2 img {
@@ -319,51 +319,51 @@
     }
     .Projetos2 .teceedu {
         padding: 5px;
-        font-size: 20px;
+        font-size: 150%;
         overflow: visible;
         position: absolute;
         background-color: white;
         border-radius: 30%;
-        top: 370px;
-        left: 150px;
+        top: 70%;
+        left: 15%;
     }
     .Projetos2 .cursoprof {
         padding: 5px;
-        font-size: 22px;
+        font-size: 138%;
         overflow: visible;
         position: absolute;
         background-color: white;
         border-radius: 30%;
-        top: 240px;
-        left: 450px;
+        top: 47%;
+        left: 60%;
     }
     .Projetos2 .apadrinhamento {
         padding: 5px;
-        font-size: 24px;
+        font-size: 158%;
         overflow: visible;
         position: absolute;
         background-color: white;
         border-radius: 30%;
-        top: 240px;
-        left: 90px;
+        top: 46%;
+        left: 13%;
     }
     .Projetos2 .empresafeliz {
         padding: 5px 30px;
-        font-size: 25px;
+        font-size: 160%;
         overflow: visible;
         position: absolute;
         background-color: white;
         border-radius: 30%;
-        top: 370px;
-        left: 450px;
+        top: 70%;
+        left: 60%;
     }
     .Projetos2 .veja {
         color: black;
-        font-size: 50px;
+        font-size: 320%;
         overflow: visible;
         position: absolute;
-        top: 45px;
-        left: 40px;
+        top: 7%;
+        left: 6%;
     }
 
     .Agenda2030 {
@@ -377,11 +377,11 @@
         max-width: 700px;
     }
     .Agenda2030 p {
-        font-size: 37px;
+        font-size: 500%;
         overflow: visible;
         position: absolute;
-        top: 120px;
-        left: 4px;
+        top: 40%;
+        left: 3%;
     }
     .Doar {
         object-fit: cover;
@@ -394,11 +394,11 @@
         max-width: 700px;
     }
     .Doar p {
-        font-size: 90px;
+        font-size: 500%;
         overflow: visible;
         position: absolute;
-        top: 280px;
-        left: 290px;
+        top: 40%;
+        left: 40%;
     }
     .Voluntariar {
         object-fit: cover;
@@ -412,11 +412,11 @@
         max-width: 650px;
     }
     .Voluntariar p {
-        font-size: 90px;
+        font-size: 500%;
         overflow: visible;
         position: absolute;
-        top: 270px;
-        left: 10px;
+        top: 28%;
+        left: 5%;
     }
     .Voluntariar2 {
         object-fit: cover;
@@ -430,11 +430,11 @@
     }
     .Voluntariar2 .venha {
         color: black;
-        font-size: 30px;
+        font-size: 250%;
         overflow: visible;
         position: absolute;
         top: 60%;
-        left: 37%;
+        left: 40%;
     }
     .Voluntariar2 .contate_nos {
         font-family: McLaren;
@@ -442,11 +442,11 @@
         border-radius: 30%;
         color: black;
         background-color: white;
-        font-size: 30px;
+        font-size: 400%;
         overflow: visible;
         position: absolute;
-        top: 130px;
-        left: 45%;
+        top: 30%;
+        left: 50%;
     }
 
 } 
