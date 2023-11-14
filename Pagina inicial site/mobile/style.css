@@ -67,6 +67,11 @@ a:focus {
     align-items: flex-end !important;
     background-color: #fff509;
 }
+.rodape{
+    background-color: #ffb300;
+    position: absolute;
+    top: 1200%;
+}
 @media screen and (max-width: 500px) {
     #navegador-pagina {
         font-size: 10px;

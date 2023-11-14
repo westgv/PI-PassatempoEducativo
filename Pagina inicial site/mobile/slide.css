@@ -35,7 +35,7 @@ section.slider {
 .nav-manual {
     position: absolute;
     width: 100%;
-    margin-top: 61%;
+    margin-top: 64%;
     display: flex;
     justify-content: center;
 }
@@ -43,7 +43,7 @@ section.slider {
 .nav-auto div,
 .nav-manual .manual-btn {
     border: 1px solid red;
-    padding: 10px;
+    padding: 15px;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.2s;
@@ -79,7 +79,7 @@ section.slider {
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:941px) {
     .img-desktop{
         display: none;
     }
@@ -89,4 +89,5 @@ section.slider {
     .nav-auto, .nav-manual{
         margin-top: 63%;
     }
+
 }

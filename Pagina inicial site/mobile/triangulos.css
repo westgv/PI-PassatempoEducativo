@@ -234,15 +234,7 @@
         left: 52%;
     }
 }
-@media screen and (min-width: 800px) {
-
-    .triangulos {
-        padding: 0;
-        margin: 0;
-        height: auto;
-        display: block;
-        margin-bottom: 20px;
-    }
+@media screen and (min-width: 942px) {
     .triangulos img {
         filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%));
     }
@@ -252,7 +244,6 @@
         color: white;
     }
     .Sobre-Nos {
-        top: 170%;
         position: absolute;
         right: 0;
         object-fit: cover;
@@ -263,7 +254,7 @@
         max-width: 700px;
     }
     .Sobre-Nos p {
-        font-size: 500%;
+        font-size: 500%; /* colocar no container  */
         overflow: visible;
         position: absolute;
         top: 45%;
@@ -450,7 +441,7 @@
     }
 
 } 
-@media screen and (min-width: 401px) and (max-width: 800px) {
+@media screen and (min-width: 401px) and (max-width: 942px) {
 
     .triangulos {
         padding: 0;
@@ -467,7 +458,7 @@
         color: white;
     }
     .Sobre-Nos {
-        top: 800px;
+        top: 130%;
         position: absolute;
         right: 0;
         object-fit: cover;
