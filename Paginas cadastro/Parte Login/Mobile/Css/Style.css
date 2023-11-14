@@ -1,0 +1,15 @@
+
+
+#login .cabecalho_login{
+    background-color: #ffa800cc;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#login .caixa_login {
+    background-color: #ffe082;
+    width: 50%;
+    height: 100%;
+}
+
