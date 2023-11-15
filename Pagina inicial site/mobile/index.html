@@ -12,53 +12,39 @@
         <link rel="stylesheet" href="slide.css">
         <link rel="stylesheet" href="triangulos.css">
         <link rel="stylesheet" href="rodape.css">
+        <link rel="stylesheet" href="nav-bar.css">
 
         <title>Página Inicial</title>
     </head>
     <body>
-        <div class="container">
-            <header id="navegador-pagina">
-                <img class="logo-inicio" src="imagens pagina inicial/logo-sol.png.png">
-                <div class="menu-toggle" id="mobile-menu">
 
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
+        <header id="navegador-pagina">
+            <nav>
+                <a class="logo" href="#"><img src="imagens pagina inicial/logo-sol.png.png" alt="Logo logo-passatempo">
+                    Passatempo Educativo</a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
                 </div>
+                <ul class="nav-list">
+                    <li>
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#">Sobre Nós</a>
+                    </li>
+                    <li>
+                        <a href="#">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="#">Doar</a>
+                    </li>
+                </ul>
+            </nav>
 
-                <div class="menu">
-                    <img class="logo-menu" src="./imagens pagina inicial/logo-passatempo.png.png">
-                    <div id="paginas">
-
-                        <p>
-                            <a href="#">Início</a>
-                        </p>
-                        <p>
-                            <a href="#">Sobre Nós</a>
-                        </p>
-                        <p>
-                            <a href="#">Projetos</a>
-                        </p>
-                        <p>
-                            <a href="#">Governança e Relatórios</a>
-                        </p>
-                        <p>
-                            <a href="#">Agenda 2030</a>
-                        </p>
-                        <p>
-                            <a href="#">Doações</a>
-                        </p>
-
-                        <div id="cadastro">
-                            <p>
-                                <strong>
-                                    <a href="#">Cadastre-se</a>
-                                </strong>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </header>
+        </header>
+        <div class="container"></div>
             <div class="row">
                 <div
                     id="carouselExampleInterval"
@@ -69,10 +55,16 @@
                             <img src="teste-imagens/foto-site-escola.jpg" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="teste-imagens/foto-site-escola.jpg" class="d-block w-100" alt="...">
+                            <img
+                                src="imagens pagina inicial/alunos-sabendo-a-resposta-certa.jpg"
+                                class="d-block w-100"
+                                alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="teste-imagens/foto-site-escola.jpg" class="d-block w-100" alt="...">
+                            <img
+                                src="imagens pagina inicial/parabens-voce-fez-um-teste-muito-bem.jpg"
+                                class="d-block w-100"
+                                alt="...">
                         </div>
                     </div>
                     <button
@@ -93,29 +85,10 @@
                     </button>
                 </div>
             </div>
-            <!-- <section class="slider"> <div class="slider-content"> <input type="radio"
-            name="btn-radio" id="radio1"> <input type="radio" name="btn-radio" id="radio2">
-            <input type="radio" name="btn-radio" id="radio3"> <input type="radio"
-            name="btn-radio" id="radio4"> <div class="slide-box primeiro"> <img
-            class="img-desktop" src="teste-imagens/foto-site-escola.jpg" alt="img-teste">
-            <img class="img-mobile" src="teste-imagens/foto-site-escola.jpg"
-            alt="img-teste"> </div> <div class="slide-box"> <img class="img-desktop"
-            src="imagens pagina inicial/logo-passatempo.png.png" alt="img-teste"> <img
-            class="img-mobile" src="imagens pagina inicial/logo-passatempo.png.png"
-            alt="img-teste"> </div> <div class="slide-box"> <img class="img-desktop"
-            src="teste-imagens/foto-site-escola.jpg" alt="img-teste"> <img
-            class="img-mobile" src="teste-imagens/foto-site-escola.jpg" alt="img-teste">
-            </div> <div class="slide-box"> <img class="img-desktop"
-            src="teste-imagens/foto-site-escola.jpg" alt="img-teste"> <img
-            class="img-mobile" src="teste-imagens/foto-site-escola.jpg" alt="img-teste">
-            </div> <div class="nav-auto"> <div class="auto-btn1"></div> <div
-            class="auto-btn2"></div> <div class="auto-btn3"></div> <div
-            class="auto-btn4"></div> </div> <div class="nav-manual"> <label for="radio1"
-            class="manual-btn"></label> <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label> <label for="radio4"
-            class="manual-btn"></label> </div> </div> </section> -->
-
             <main>
+                <nav class="Informacoes">
+                    <h1>Informações</h1>
+                </nav>
 
                 <div class="triangulos">
                     <div class="row d-flex justify-content-start m-2 Sobre-Nos">
@@ -188,7 +161,7 @@
                         <div class="venha">
                             <p>Venha fazer parte dessa família!!</p>
                         </div>
-                        <div class="contate_nos">
+                    <div class="contate_nos">
                             <a id="linktriangulos" href="#">
                                 Contate-Nos</div>
                         </a>
@@ -207,6 +180,7 @@
 
         <script src="script.js"></script>
         <script src="slide.js"></script>
+        <script src="mobile-navbar.js"></script>
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
