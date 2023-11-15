@@ -13,25 +13,7 @@ body {
     position: absolute;
     top: 1200%;
 }
+.informacoes{
+    background-color: rgba(241, 236, 175, 0.431)
 
-@media screen and (max-width: 500px) { 
-}
-@media screen and (min-width: 500px) {
-    #navegador-pagina {
-        font-size: 22px;
-    }
-
-    #cadastro {
-
-        font-size: 30px;
-        margin-bottom: 2%;
-        padding-top: 2%;
-        display: flex;
-        justify-content: flex-end !important;
-        align-items: flex-end !important;
-        background-color: #fff509;
-        border-radius: 40px;
-
-    }
-    
 }
