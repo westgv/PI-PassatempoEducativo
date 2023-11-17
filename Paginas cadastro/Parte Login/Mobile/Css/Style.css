@@ -1,14 +1,18 @@
-
+body {
+    background-image: url("../imagens-login/unnamed-1-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #login .cabecalho_login{
     background-color: #ffa800cc;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     text-align: center;
 }
 
 #login .caixa_login {
-    background-color: #ffe082;
+    background-color: #FFF9EE;
     width: 50%;
     height: 100%;
 }

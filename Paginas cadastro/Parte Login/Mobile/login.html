@@ -4,45 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/style.css">
+    <lnik href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+    crossorigin="anonymous">
     <title>Login</title>
 </head>
 
 <body>
-    <div id="login">
-        <form class="caixa_login">
-            <div class="cabecalho_login">
-                <h2>Login</h2>
-            </div>
-            <div class="conteudo_login">
-                <img src="./imagens-login/passatempo-educativo-1-2.png" alt="">
-                <div class="conteudo_login_area">
-                    <label for="email">E-mail
-                        <input type="text" id="usuario" autocomplete="off">
-                    </label>
+    <div class="container">
+        <div id="login">
+            <form class="caixa_login">
+                <div class="cabecalho_login">
+                    <h2>Login</h2>
                 </div>
-                <div class="caixa_login_area">
-                    <label for="password">Senha:
-                        <input type="senha" id="senha" autocomplete="off">
-                    </label>
-                    <br>
-                    <a href="../../Parte nova senha//mobile/Senha.html" class="recuperar_senha">Esqueci minha senha</a>
-                </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="text-center mt-3 border p-3">
+                                    <div class="conteudo_login">
+                                        <div class="text-center mt-3 border p-3">
+                                            <img src="./imagens-login/passatempo-educativo-1-2.png" alt="">
+                                        </div>
+                                        <div class="conteudo_login_area">
+                                            <label for="email">E-mail
+                                                <input type="text" id="usuario" autocomplete="off">
+                                            </label>
+                                        </div>
+                                        <div class="caixa_login_area">
+                                            <label for="password">Senha:
+                                                <input type="senha" id="senha" autocomplete="off">
+                                            </label>
+                                            <br>
+                                            <a href="../../Parte nova senha//mobile/Senha.html" class="recuperar_senha">Esqueci minha senha</a>
+                                        </div>
+                                    </div>
+                                    <div class="caixa_rodape">
+                                        <a href='../../Parte Atualizacoes/Mobile/atualizacao.html'>
+                                            <button type="button">Atualizar</button>
+                                        </a>
+
+                                        <input type="submit" value="logar" class="submit">
+                                    </div>
+                                </form>
+                                <div id="quadrado_cadastro">
+                                    <h4>Não tem conta? então cadastre-se!</h4>
+
+                                    <a href="../../Parte cadastro/cadastro.html">
+                                        <button type="button">Cadastrar</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
             </div>
-            <div class="caixa_rodape">
-                <a href='../../Parte Atualizacoes/Mobile/atualizacao.html'>
-                    <button type="button">Atualizar</button>
-                </a>
-
-                <input type="submit" value="logar" class="submit">
-            </div>
-        </form>
-
-        <div id="quadrado_cadastro">
-            <h4>Não tem conta? então cadastre-se!</h4>
-
-            <a href="../../Parte cadastro/cadastro.html">
-                <button type="button">Cadastrar</button>
-              </a>
         </div>
     </div>
 </body>
