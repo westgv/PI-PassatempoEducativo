@@ -23,7 +23,12 @@
     filter: drop-shadow(0px 0px 20px rgba(251, 130, 255, 0.9));
 } */
 
-
+    .triangulos .row{
+        margin-top: 10rem;
+    }
+    .triangulos .row :last-child{
+        margin-bottom: 1rem;
+    }
     .triangulos img {
         filter: drop-shadow(0px 0px 20px rgba(0 0 0 / 90%));
     }
@@ -66,7 +71,7 @@
     }
     .Sobre-Nos {
         position: absolute;
-        right: -5%;
+        right: 3%;
         object-fit: cover;
         width: 60%;
 
@@ -79,7 +84,7 @@
     .Governanca {
         object-fit: cover;
         position: absolute;
-        top: 180%;
+        
         left: 10%;
         width: 60%;
     }
@@ -88,7 +93,7 @@
         object-fit: cover;
         position: absolute;
         top: 260%;
-        right: -5%;
+        right: 3%;
         z-index: 1;
         width: 60%;
     }
@@ -106,7 +111,7 @@
         object-fit: cover;
         position: absolute;
         top: 440%;
-        right: -5%;
+        right: 3%;
         width: 60%;
     }
     .Voluntariar {
