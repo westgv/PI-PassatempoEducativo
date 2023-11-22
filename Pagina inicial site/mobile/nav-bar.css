@@ -1,6 +1,7 @@
-*{
+*, *::after, *::before{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .navegador-pagina{
     position: fixed;
@@ -19,7 +20,17 @@ a:hover{
     text-transform: uppercase;
     letter-spacing: 4px;
 }
+.logo img{
+    width: 180px;
+    height: auto;
+}
+.logo-mobile img{
+    width: 120px;
+    height: auto;
+}
+
 nav{
+    text-transform: uppercase;
     display: flex;
     justify-content: space-around;
     align-items: center;

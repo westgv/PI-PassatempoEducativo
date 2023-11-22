@@ -17,14 +17,21 @@ body {
     text-transform: uppercase;
     font: size 15px !important;
 }
-.inicio{
+.inicio h1{
     text-transform: uppercase;
+    font-size: 80px;
+}
+.inicio h4{
+    text-transform: uppercase;
+    font-size: 45px;
 }
 .conheca h1{
     color: red;
 
 }
 .insta{
+    max-width: 100%;
+    height: auto;
 }
-.yotube{
+.youtube{
 }
