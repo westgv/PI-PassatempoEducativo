@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+.navegador-pagina{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
 a {
     color: white;
     text-decoration: none;
@@ -59,7 +64,20 @@ main{
     transition: 0.3s;
 }
 
-@media (max-width: 999px){
+.nav-list :hover{
+    color: black;
+}
+@media (min-width: 701px){
+    .logo-mobile{
+        display: none;
+    }
+}
+@media (max-width: 700px){
+    .logo{
+        display: none;
+    }
+}
+@media (max-width: 1299px){
     body{
         overflow-x: hidden;
     }

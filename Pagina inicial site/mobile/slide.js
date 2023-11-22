@@ -4,7 +4,7 @@ var cont = 1
 
 setInterval(() => {
     proximaImg()
-}, 5000)
+}, 4000)
 
 function proximaImg() {
     cont++

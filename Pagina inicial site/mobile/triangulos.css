@@ -67,7 +67,7 @@
         position: absolute;
         top: 10%;
         left: 80%;
-        width: 40%
+        width: 30%
     }
     .Sobre-Nos {
         position: absolute;
@@ -84,7 +84,6 @@
     .Governanca {
         object-fit: cover;
         position: absolute;
-        
         left: 10%;
         width: 60%;
     }
@@ -92,7 +91,6 @@
     .Projetos {
         object-fit: cover;
         position: absolute;
-        top: 260%;
         right: 3%;
         z-index: 1;
         width: 60%;
@@ -101,7 +99,6 @@
     .Agenda2030 {
         object-fit: cover;
         position: absolute;
-        top: 360%;
         left: 10%;
         width: 60%;
     }
@@ -110,17 +107,15 @@
     .Doar {
         object-fit: cover;
         position: absolute;
-        top: 440%;
         right: 3%;
         width: 60%;
     }
     .Voluntariar {
         object-fit: cover;
         position: absolute;
-        top: 520%;
         left: 10%;
         z-index: 1;
-        width: 60%;
+        width: 70%;
     }
 
 
