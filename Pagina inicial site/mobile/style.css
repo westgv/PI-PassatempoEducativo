@@ -9,56 +9,98 @@ body {
     overflow-x: hidden;
 }
 footer {
-    background-color: #ffb300;
+    background-color: #ffe6ad;
     padding: 10px 0;
-    margin-top: auto;
+    margin-top: 10px;
     bottom: 0;
+
 }
-.informacoes{
+.informacoes {
     background-color: rgba(241, 236, 175, 0.431);
     text-transform: uppercase;
     font: size 15px !important;
 }
-.inicio h1{
+.inicio h1 {
     text-transform: uppercase;
     font-size: 80px;
 }
-.inicio h4{
+.inicio h4 {
     text-transform: uppercase;
     font-size: 45px;
 }
-.conheca h1{
+.conheca h1 {
     color: red;
 
 }
-.pe-media iframe{
+.pe-media iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
 }
-.agenda{
+.agenda {
     width: 300px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
-    background-color: white;
-    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra */
+    background-color: #d0f5f2;
+    text-align: center;
 }
-#nome-mes{
+.agenda strong{
+    text-transform: uppercase;
+}
+#nome-mes {
     color: red;
 }
-.agenda{
+.agenda {
     left: 2px;
 }
-.informativo{
+.informativo {
     width: 300px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
-    background-color: white;
-    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra */
+    background-color: rgb(255, 144, 144);
+
+}
+.programacao {
+    background-color: rgba(241, 236, 175, 0.431);
+    text-transform: uppercase;
+    font: size 15px !important;
+}
+
+/* Estilos para a seção de patrocinadores */
+.patrocinadores {
+    text-align: center;
+    padding: 20px 0;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.patrocinadores h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.logotipos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logotipos a {
+    margin: 10px;
+}
+
+.logotipos img {
+    max-width: 150px;
+    /* Ajuste o tamanho conforme necessário */
+    height: auto;
 }
