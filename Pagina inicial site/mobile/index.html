@@ -108,26 +108,59 @@
                         <h1>Na Mídia</h1>
                     </div>
                 </div>
-                <div class="row mb-10 imagens">
-                    <div class="col">
-                        <a href="https://www.instagram.com/passatempoeducativo"><img src="imagens pagina inicial/passatempo insta.png" srcset="imagens pagina inicial/passatempo insta-500.png 500w, imagens pagina inicial/passatempo insta-500.png 1000w, imagens pagina inicial/passatempo insta.png 2000w" sizes="(max-width: 600px) 500px, (max-width: 1000px) 1000px, 2000px" class="insta" alt=".."></a>
+                <div class="row mb-5 text-center">
+
+                    <div class="col md-10 pe-midia">
+                        <iframe
+                            max-width="560"
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/HuiT67_CbQ8?si=Casw0rCKPqljZsQc"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen="allowfullscreen"
+                            onload="ajustarAltura()"></iframe>
                     </div>
-                    <div class="col youtube"></div>
+
                 </div>
 
-            </main>
-            <footer>
-                <div class="row mt-5 rodape">
-                    <h4>Contatos:
-                    </h4>
+                <div class="row programacao">
+
+                    <div class="col md-1"></div>
+                    <div class="col md-5 agenda text-center">
+                        <h4>Agenda</h4>
+                        <h2 id="nome-mes"></h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam explicabo
+                            ipsa, eligendi ab odio molestiae officiis totam dolorum? Possimus perferendis
+                            impedit maiores hic deleniti fugiat aliquid aperiam nisi quasi blanditiis.</p>
+                    </div>
+                    <div class="col md-1"></div>
+                    <div class="col md-5 informativo text-center">
+                        <h4>Informativo</h4>
+                        <h2>Nós K Nós</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ratione
+                            similique exercitationem odio inventore minima, perspiciatis pariatur optio
+                            perferendis expedita quae illum molestiae nemo iure quos officia totam cumque
+                            suscipit?</p>
+                    </div>
+                    <div class="col md-1"></div>
                 </div>
+            </div>
+            </main>
+
+            <footer class="text-center">
+                <p>&copy; 2023 Seu Site | Todos os direitos reservados</p>
 
             </footer>
-        </div>
+        
 
         <script src="script.js"></script>
         <script src="slide.js"></script>
         <script src="mobile-navbar.js"></script>
+        <script src="agenda.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

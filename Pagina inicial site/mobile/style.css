@@ -8,9 +8,11 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
-.rodape{
+footer {
     background-color: #ffb300;
-    position: absolute;
+    padding: 10px 0;
+    margin-top: auto;
+    bottom: 0;
 }
 .informacoes{
     background-color: rgba(241, 236, 175, 0.431);
@@ -29,9 +31,34 @@ body {
     color: red;
 
 }
-.insta{
-    max-width: 100%;
-    height: auto;
+.pe-media iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
-.youtube{
+.agenda{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+    background-color: white;
+    
+}
+#nome-mes{
+    color: red;
+}
+.agenda{
+    left: 2px;
+}
+.informativo{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra */
+    background-color: white;
+    
 }
