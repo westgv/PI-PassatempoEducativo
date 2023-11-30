@@ -1,0 +1,223 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #FFA800;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 32px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 30px;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.bottom-content {
+    text-align: center;
+}
+
+.info-box {
+    background-color: #FFF3DB;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 300px;
+}
+
+.info-box h2 {
+    font-size: 18px;
+}
+
+.info-box p {
+    font-size: 15px;
+}
+/* Estilo para a primeira .info-box e seus elementos */
+.info-box {
+    flex: 1;
+    margin: 10px;
+    padding: 30px; /* Aumentar o preenchimento */
+    border: 1px solid #ccc;
+    text-align: center;
+    display: inline-block;
+    width: calc(60% - 20px); /* Aumentar a largura */
+    vertical-align: top;
+}
+
+/* Estilo para a imagem e texto fora da .info-box */
+.image-box {
+    display: inline-block;
+    width: calc(50% - 30px); /* Aumentar a largura */
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+.info-box h2 {
+    font-size: 20px;
+}
+
+.info-box h3 {
+    font-size: 22px;
+}
+
+.info-box p {
+    font-size: 16px;
+}
+
+/* Estilo para o conteúdo da esquerda */
+.info-box {
+    flex: 1;
+    margin: 15px;
+    padding: 24px;
+    border: 1px solid #ccc;
+    text-align: center;
+    display: inline-block; /* Torna o conteúdo inline */
+    width: calc(50% - 20px); /* Define a largura para ocupar metade do container com alguma margem */
+    vertical-align: top; /* Alinha o conteúdo superiormente */
+}
+
+/* Estilo para a imagem */
+.info-image {
+    display: inline-block; /* Torna a imagem inline */
+    width: calc(50% - 20px); /* Define a largura para ocupar metade do container com alguma margem */
+    vertical-align: top; /* Alinha a imagem superiormente */
+    margin-left: 30px; /* Define uma margem à esquerda para criar espaço entre a imagem e o conteúdo */
+}
+
+/* Estilo para a imagem dentro do container */
+.info-image img {
+    max-width: 100%; /* Garante que a imagem não exceda a largura do container */
+}
+/* Estilo para o container das imagens circulares */
+.circle-images {
+    display: flex;
+    justify-content: space-around; /* Distribui igualmente o espaço entre os círculos */
+    align-items: center; /* Alinha verticalmente no centro */
+    margin-top: 20px; /* Espaço entre as descrições e as imagens */
+}
+
+/* Estilo para as descrições */
+.description {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px; /* Espaço entre a descrição e os círculos */
+}
+
+/* Estilo para os círculos */
+.circle {
+    text-align: center;
+}
+
+.circle img {
+    width: 150px; /* Largura das imagens circulares */
+    height: 150px; /* Altura das imagens circulares */
+    border-radius: 80%; /* Borda arredondada para criar um círculo */
+    margin: 0 15px; /* Espaço entre os círculos */
+}
+
+.circle p {
+    margin: 15px 0; /* Espaço entre a imagem e o texto */
+}
+/* Estilo para a seção de documentos */
+.document-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+/* Estilo para cada documento */
+.document {
+    width: 30%; /* Define a largura de cada documento */
+    text-align: center;
+    margin: 10px;
+}
+
+/* Estilo para as imagens dos documentos */
+.document img {
+    max-width: 100px; /* Define a largura máxima das imagens */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para a descrição dos documentos */
+.document p {
+    font-size: 14px;
+}
+/* Estilo para o rodapé */
+footer {
+    background-color: #FFA800;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para os ícones de redes sociais */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+/* Estilo para a logo no rodapé */
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo img {
+    max-width: 300px; /* Ajuste o tamanho máximo da logo conforme necessário */
+}
+
+/* Estilo para as imagens dos ícones de redes sociais */
+.social-icon img {
+    max-width: 60px; /* Define a largura máxima para os ícones de redes sociais */
+}
+.info-text {
+    text-align: left;
+    max-width: 400px; /* Define a largura máxima do espaço de informações */
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.info-text h4 {
+    font-size: 20px;
+}
+
+.info-text p {
+    font-size: 18px;
+}
