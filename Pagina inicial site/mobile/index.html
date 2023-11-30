@@ -14,11 +14,11 @@
         <link rel="stylesheet" href="rodape.css">
         <link rel="stylesheet" href="nav-bar.css">
         <link rel="shortcut icon" href="favicon/passatempoedu.ico" type="image/x-icon">
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="pop-up.css">
         <title>Página Inicial</title>
     </head>
     <body>
-
         <header class="navegador-pagina">
             <nav>
                 <a class="logo" href="index.html"><img src="imagens pagina inicial/logo-sol.png.png" alt="Logo logo-passatempo">
@@ -190,15 +190,69 @@
                         </div>
                     </div>
                 </patrocinadores>
-                <footer class="footer text-center">
-                    <p>&copy; 2023 Seu Site | Todos os direitos reservados</p>
-        
+                
+    
+                <footer class="row footer text-center">
+                    <div class="col md-4">
+                    <h6>&copy; 2023 Passatempo Educativo | Todos os direitos reservados</h6></div>
+                    <div class="col md-4">
+                    <h6>Contatos: email: <a href="mailto:passatempo@passatempoeducativo.org.br">passatempo@passatempoeducativo.org.br</a>  / whatsapp: <a href="tel:+5511997579540">(11) 9 9757-9540</a></h6></div>
+                    <div class="col md-4"><h6>
+                        Redes Sociais:
+                        <a href="#" class="social-icon text-twitter mr-2"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="#" class="social-icon text-youtube mr-2"><i class="fab fa-youtube fa-2x"></i></a>
+                        <a href="#" class="social-icon text-instagram mr-2"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#" class="social-icon text-facebook mr-2"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="#" class="social-icon text-linkedin mr-2"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="#" class="social-icon text-flickr mr-2"><i class="fab fa-flickr fa-2x"></i></a>
+                    </h6></div>    
+
                 </footer>
             </div>
         </main>
 
-        
-
+        <div class="text-center pop-up" id="pop-up">
+            <div class="pop-up-txt">
+                <strong>Termos de Uso</strong>
+                <p>
+                    Bem-vindo ao Passatempo Educativo!
+                    <br>
+                    Estes termos e condições descrevem as regras e regulamentos para o uso do nosso site. Ao acessar este site, assumimos que você aceita estes termos e condições na íntegra. Não continue a usar o site Passatempo Educativo se você não concordar com todos os termos e condições estabelecidos nesta página.
+                    <br>
+                    Os seguintes termos se aplicam ao uso deste site:
+                    <br>
+                    <strong>Licença de Uso</strong><br>
+                    O conteúdo e materiais deste site são protegidos por direitos autorais e outros direitos de propriedade intelectual.
+                    Você pode visualizar e/ou imprimir páginas deste site para seu uso pessoal, sujeito às restrições estabelecidas nestes termos e condições.
+                    <br>
+                    <strong>Restrições</strong><br>
+                    Você<strong> não </strong>deve:<br>
+                    
+                        Reproduzir, duplicar ou copiar materiais deste site para uso comercial;<br>
+                        Modificar ou editar qualquer material deste site;
+                    <br>
+                    Distribuir conteúdo deste site em qualquer outra plataforma.<br>
+                    <strong>Conteúdo</strong>
+                    Este site pode conter informações imprecisas ou erros. Não nos responsabilizamos por qualquer imprecisão presente no conteúdo.<br>
+                    Reservamo-nos o direito de alterar ou atualizar o conteúdo sem aviso prévio.<br>
+                    <strong>Uso do Site</strong>
+                    Ao utilizar o site, você concorda em seguir as leis e regulamentos aplicáveis.<br>
+                    Não realize atividades que possam causar danos ao site ou a terceiros.<br>
+                    <strong>Links para Outros Sites</strong><br>
+                    Nosso site pode conter links para sites de terceiros. Não somos responsáveis pelo conteúdo ou práticas de privacidade desses sites.<br>
+                    Ao usar este site, você concorda com estes termos. Se você não concorda com eles, por favor, não continue a usar o site Passatempo Educativo.
+                    <br>
+                    Estes termos e condições podem ser alterados a qualquer momento, e a versão atualizada será publicada nesta página.
+                    <br>
+                    Se você tiver dúvidas sobre estes termos, entre em contato conosco em passatempo@passatempoeducativo.org.br
+                </p>
+                <div class="pop-up-btn">
+                    <button>Li e Aceito os Termos de Uso</button>
+                </div>
+                </div>
+        </div>
+        <script src="pop-up.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="script.js"></script>
         <script src="slide.js"></script>
         <script src="mobile-navbar.js"></script>

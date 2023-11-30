@@ -1,0 +1,31 @@
+*{
+    font-family: McLaren;
+}
+.pop-up{
+    font-size: 15px;
+    width: 70%;
+    background-color: #fff;
+    position: fixed;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%);
+    border: 1px solid #000;
+    font-weight: 1000;
+    border-radius: 15px;
+}
+.pop-up .pop-up-txt button{
+    padding: 10px 40px;
+    background-color: blue;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.pop-up .pop-up-txt{
+    align-items: center;
+    text-align:center;
+    padding: 5px;
+}
+.pop-up .pop-up-txt button:hover{
+    transform: scale(0.9);
+}
