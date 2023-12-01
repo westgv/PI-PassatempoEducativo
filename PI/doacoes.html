@@ -3,116 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="governanca_style.css">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px;
-            background-color: #FFA800;
-        }
-
-        .logo img {
-            max-height: 50px;
-        }
-
-        .menu ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap; /* Para ajustar o menu em telas menores */
-            justify-content: center;
-        }
-
-        .menu li {
-            margin-right: 15px;
-            margin-bottom: 10px; /* Adicionei um espaço entre os itens do menu em telas menores */
-        }
-
-        .donation-section {
-            text-align: center;
-            margin-top: 20px; /* Ajustei o espaçamento superior para telas menores */
-        }
-
-        .donation-image {
-            margin-bottom: 20px; /* Adicionei um espaço entre a imagem e o texto em telas menores */
-        }
-
-        .donation-image img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        h1 {
-            text-align: center;
-        }
-
-        .donation-text {
-            text-align: left;
-        }
-
-        .donation-list {
-            list-style-type: square;
-            padding-left: 20px;
-        }
-
-        .info-container {
-            display: flex;
-            flex-wrap: wrap; /* Para ajustar as caixas de informação em telas menores */
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-
-        .info-box {
-            width: 100%; /* Alterei a largura para ocupar toda a largura da tela em telas menores */
-            margin-bottom: 20px; /* Adicionei um espaço entre as caixas de informação em telas menores */
-            border: 1px solid #ddd;
-            padding: 16px;
-            box-sizing: border-box;
-        }
-
-        .info-box img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 10px; /* Adicionei um espaço abaixo da imagem em telas menores */
-        }
-
-        .social-icons {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px; /* Ajustei o espaçamento superior para telas menores */
-        }
-
-        .social-icon img {
-            max-width: 40px;
-            height: auto;
-            margin: 0 10px;
-        }
-
-        .footer-logo {
-            text-align: center;
-            margin-top: 20px; /* Ajustei o espaçamento superior para telas menores */
-        }
-
-        .footer-logo img {
-            max-width: 80px;
-            height: auto;
-            margin-top: 10px;
-        }
-
-        .info-text {
-            margin-top: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="doacoes.css">
     <title>Passatempo Educativo</title>
 </head>
 <body>
@@ -133,10 +24,6 @@
         </div>
     </div>
     <h1>DOAÇÕES</h1>
-    <section class="donation-section">
-        <div class="donation-image">
-            <img src="your-image.jpg" alt="Image">
-        </div>
         <div class="donation-text">
             <h2>Como doar</h2>
             <p>Você pode ajudar a Passatempo Educativo através de doações!</p> 
@@ -153,55 +40,74 @@
                 <li>Desenvolvimento de novos projetos educativos</li>
                 <li>Materiais para o Projeto Reforço Interativo</li>
             </ul>
-        </div>
-    </section>
+            <section class="contact-section">
+                <form action="#" method="post" class="contact-form">
+                    <h2>Entre em Contato</h2>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade" required>
+    
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+    
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+    
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+    
+                <div class="contact-info">
+                    <h2>Informações de Doação</h2>
+                    <div>
+                        <img src="img/bancodobrasil.png" alt="Transferência Bancária">
+                        <p>Banco do Brasil<br>
+                            Agência 4093-2<br>
+                            Conta Corrente: 20.098-0<br>
+                            CNPJ 07.734.376/0001-79<br>
+                            Razão Social: Passatempo Educativo</p>
+                    </div>
+                    <div>
+                        <img src="img/pix.png" alt="Chave Pix">
+                        <p>
+                            Chave PIX da Passatempo Educativo<br>
+                            CNPJ 07.734.376/0001-79<br>
+                            Razão Social: Passatempo Educativo</p>
+                    </div>
+                </div>
+            </section>
+            <footer class="row footer text-center">
+                <div class="col md-4">
+                <h6>&copy; 2023 Passatempo Educativo | Todos os direitos reservados</h6></div>
+                <div class="col md-4">
+                <h6>Contatos: email: <a href="mailto:passatempo@passatempoeducativo.org.br">passatempo@passatempoeducativo.org.br</a>  / whatsapp: <a href="tel:+5511997579540">(11) 9 9757-9540</a></h6></div>
+                <div class="col md-4"><h6>
+                    Redes Sociais:
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">
+                            <img src="img/facebook.png" alt="Facebook">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="img/twitter.png" alt="Twitter">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="img/instagram.png" alt="Instagram">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="img/linkedin.png" alt="LinkedIn">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="img/youtube.png" alt="YouTube">
+                        </a>
+                        <a href="#" class="social-icon">
+                            <img src="img/flick.png" alt="Flickr">
+                        </a>
+                    </div>
 
-    <div class="info-container">
-        <div class="info-box">
-            <img src="img/bancodobrasil.png" alt="Transferência Bancária">
-            <p>Banco do Brasil<br>
-                Agência 4093-2<br>
-                Conta Corrente: 20.098-0<br>
-                CNPJ 07.734.376/0001-79<br>
-                Razão Social: Passatempo Educativo</p>
-        </div>
-        <div class="info-box">
-            <img src="img/pix.png" alt="Chave Pix">
-            <p>
-                Chave PIX da Passatempo Educativo<br>
-                CNPJ 07.734.376/0001-79<br>
-                Razão Social: Passatempo Educativo</p>
-        </div>
-    </div>
-    <div class="social-icons">
-        <a href="#" class="social-icon">
-            <img src="facebook-icone-noir (1).png" alt="Facebook">
-        </a>
-        <a href="#" class="social-icon">
-            <img src="39552 (1).png" alt="Twitter">
-        </a>
-        <a href="#" class="social-icon">
-            <img src="instagram-icone-noir.png" alt="Instagram">
-        </a>
-        <a href="#" class="social-icon">
-            <img src="png-transparent-social-media-computer-icons-linkedin-black-angle-text-logo (1).png" alt="LinkedIn">
-        </a>
-        <a href="#" class="social-icon">
-            <img src="youtube_black_logo_icon_147044.png" alt="YouTube">
-        </a>
-        <a href="#" class="social-icon">
-            <img src="png-transparent-computer-icons-flickr-social-media-blog-ferrum-college-flicker-logo-black-internet-thumbnail (1).png" alt="Flickr">
-        </a>
-    </div>
-    <footer>
-        <div class="footer-logo">
-            <img src="download (1).png" alt="Logo">
-            <div class="info-text">
-                <h4>Contatos Email:</h4>
-                <p>passatempo@passatempoeducativo.org.br.</p>
-                <p>WhatsApp: (11) 99757-9540.</p>
-            </div>
-        </div>
-    </footer>
+            </footer>
 </body>
 </html>
