@@ -12,6 +12,10 @@
     border: 1px solid #000;
     font-weight: 1000;
     border-radius: 15px;
+    display: none;
+}
+.pop-up.mostrar{
+    display: block;
 }
 .pop-up .pop-up-txt button{
     padding: 10px 40px;
