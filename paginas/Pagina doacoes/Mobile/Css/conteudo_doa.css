@@ -1,0 +1,110 @@
+main {
+    overflow-x: hidden
+}
+
+#quadrado_doa_inicio {
+    background-image: url("../imagens-doacoes/image-599.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250%;
+    width: 100%;
+    margin-top: 10%;
+}
+
+#titulo_doacoes {
+    background-image: url("imagens-doacoes/ellipse-17.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin-top: 10%;
+}
+
+#titulo_doacoes h1 {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 50%; 
+} 
+
+/* imagem do circulo retangulo no fundo */
+
+#quadrado_voluntario {
+
+}
+
+.voluntarios {
+    height: 2%;
+    width: 2%;
+
+}
+
+#quadrado_voluntarios h2 {
+
+}
+
+#quadrado_voluntarios h6 {
+
+}
+
+#quadrado_tipo_doa {
+
+}
+
+#quadrado_tipo_doa h1 {
+
+}
+
+#tipo_doacoes {
+
+}
+
+
+
+#quadrado_tipo_doa {
+
+}
+
+#tipo_doacoes {
+
+}
+
+#tipos_doacoes h1 {
+
+}
+ 
+.logo_banco_brasil {
+
+}
+
+
+#transferencia_bc {
+
+}
+
+#transferencia_bc h3 {
+
+}
+
+.logo_banco_brasil {
+
+}
+
+
+#chave_pix {
+
+}
+
+#chave_pix h3 {
+
+}
+
+.logo-pix {
+
+}
+
+
+

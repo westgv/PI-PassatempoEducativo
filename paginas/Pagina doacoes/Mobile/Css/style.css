@@ -1,0 +1,165 @@
+@font-face {
+    font-family: McLaren;
+    src: url("./McLaren/McLaren-Regular.ttf");
+}
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding:0;
+    margin:0;
+}
+
+#navegador-pagina {
+    background-color: #ffb300;
+    font-family: McLaren;
+    background-attachment: scroll;
+    display: flex;
+    position: fixed;
+    height: auto;
+    width: 100%;
+    top: 0%;
+    margin-left: 0%;
+}
+
+
+.menu-toggle {
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    align-items: left;
+    margin-right: auto;
+    height: auto;
+    width: 7%;
+    
+}
+.bar {
+    background-color: #000000;
+    margin: 10% 0;
+    width: 100%;
+    height: 12%;
+    /* width: 25px;
+    height: 3px; */
+}
+.menu {
+    display: none;
+}
+.menu.active {
+    display: inline-block;
+    margin-left: 0;
+    margin-top: auto;
+    border: 1px solid black;
+    height: auto;
+    width: 65%;
+}
+    #navegador-pagina{
+        font-size: 10%;
+    }
+    header {
+        display: flex;
+    }
+    #paginas {
+        margin-left: 10%;
+        padding-top: 1%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        white-space: nowrap;
+        height: 50%;
+        width: 1000;
+    }
+    
+    #logo-botao  {
+        height: auto;
+        width: 17%;
+        margin-left: 0%;        
+    }
+
+    .logo-inicio {
+        height: auto;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .logo-menu{
+        
+        height: 50%;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        background-color: #000;
+    }
+    .menu-toggle {
+        display: flex;
+    }
+    .menu-toggle-projeto {
+        display: flex;
+        height: 10%;
+        width: 100%;
+    }
+    .menu {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 50%;
+        background-color: #ffe082;
+        
+    }
+    .menu p{
+        padding: 0;
+        list-style-type: none;
+        border-bottom: 1px solid #000;
+        border-width: 100%;
+        line-height: 1.5em;
+        align-items: center;
+    }
+   
+    .menu p:last-child{
+        border-bottom: none;
+    }
+@media screen and (min-width: 10000px){
+    #navegador-pagina{
+        font-size: 22px;
+    }
+    #navegador-pagina a:link {
+        color: black;
+    
+    }
+    #navegador-pagina a:visited {
+        color: black;
+    }
+    #navegador-pagina a:hover,
+    a:focus {
+        color: white;
+    
+    }
+    #cadastro a:link{
+        color: black;
+        background-color: aqua;
+    }
+    #cadastro a:visited{
+        color:black;
+    }
+    #cadastro a:hover, a:focus{
+        color: red;
+    }
+    #cadastro {
+        margin-bottom: 2%;
+        padding-top: 2%;
+        display: flex;
+        justify-content: flex-end !important;
+        align-items: flex-end !important;
+        background-color: #fff509;
+        border-radius: 40px;
+    
+    }
+}
+
+    
+
+
+
+
+
