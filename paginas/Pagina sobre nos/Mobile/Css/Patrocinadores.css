@@ -8,33 +8,33 @@ Patrocinadores
     color: black;
     text-decoration: underline;
     text-align: center;
-    margin-left: auto;
-    bottom: 5%;
-    width: 120%;
+    margin-left: 20%;
+    margin-right: auto;
 }
 
 #quadrado-patrocinadores {
     display:block;
-    background-color:  #ffffec;
-    width: 60%;
+    /* background-color:  #ffffec; */
+    width: 70%;
     height: auto;
     margin-left: 5%;
     margin-top: 5%;
-    border: 6px solid;
-    border-color: #090000;
+    /* border: 6px solid; */
+    /* border-color: #090000; */
 }
 
 #logos {
     display: flex;
-    height: 18%;
-    width: 18%;
+    height: 20%;
+    width: 20%;
     margin-top: 10%;
+    margin-left: -40%;
 }
 
 #logos1 {
     display: flex;
-    height: 18%;
-    width: 18%;
+    height: 20%;
+    width: 20%;
     margin-top: 10%;
 }
 #logos2 {
@@ -44,20 +44,20 @@ Patrocinadores
     margin-top: 10%;
 }
 
-.logo-thales {
+/* .logo-thales {
     margin-left: 50%;
-}
+} */
 
-.logo-firmenich {
-    margin-left: 50%;
+/* .logo-firmenich {
+    margin-left: 400%;
 }
 
 .logo-anglo {
-    margin-left: 50%;
+    margin-left: 400%;
 }
 
 .logo-australian {
-    margin-left: 50%;
+    margin-left: 600%;
 }
 
 
@@ -72,4 +72,4 @@ Patrocinadores
 
 .logo-adeste {
     margin-left: 50%;
-}
+} */
