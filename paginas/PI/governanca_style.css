@@ -17,10 +17,12 @@ body {
 }
 
 .bottom-content {
-    text-align: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin-top: 30px;
 }
 
 
@@ -50,6 +52,7 @@ body {
     width: calc(60% - 20px); 
     vertical-align: top;
 }
+
 
 .image-box {
     display: inline-block;
@@ -86,6 +89,7 @@ body {
     width: calc(50% - 20px); 
     vertical-align: top; 
     margin-left: 30px; 
+    margin: 20px
 }
 
 
@@ -150,10 +154,12 @@ body {
 }
 
 footer {
-    background-color: #FFA800;
-    color: black;
-    text-align: center;
-    padding: 20px;
+    background-color: #ffe6ad;
+    padding: 20px 0;
+}
+footer a {
+    text-decoration: none;
+    color: inherit;
 }
 
 
@@ -161,6 +167,7 @@ footer {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    color:#fff
 }
 
 .social-icon {
