@@ -8,6 +8,7 @@
     position: fixed;
     z-index: 999;
     width: 100%;
+    color: white !important;
 }
 a {
     text-decoration: none;
@@ -16,19 +17,27 @@ a:hover{
     opacity: 0.85;
 }
 .logo{
-    font: size 24px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    font-weight: bold;
 }
 .logo img{
     width: 180px;
     height: auto;
+    margin-right: 10px;
 }
 .logo-mobile img{
     width: 120px;
     height: auto;
 }
-
+nav a{
+    color:white;
+    text-decoration: none;
+}
+nav .logo:hover{
+    color: white;
+}
 nav{
     text-transform: uppercase;
     display: flex;
@@ -46,6 +55,8 @@ main{
 .nav-list{
     list-style: none;
     display: flex;
+    padding: 0;
+    margin: 0;
 }
 .nav-list li{
     letter-spacing: 3px;
@@ -134,5 +145,4 @@ main{
     .mobile-menu.active .line3{
         transform: rotate(45deg) translate(-5px, -7px);
     }
-    
-}
+        }
