@@ -69,22 +69,20 @@ body {
 .info-box p {
     font-size: 15px;
 }
-/* Estilo para a primeira .info-box e seus elementos */
 .info-box {
     flex: 1;
     margin: 10px;
-    padding: 30px; /* Aumentar o preenchimento */
+    padding: 30px; 
     border: 1px solid #ccc;
     text-align: center;
     display: inline-block;
-    width: calc(60% - 20px); /* Aumentar a largura */
+    width: calc(60% - 20px); 
     vertical-align: top;
 }
 
-/* Estilo para a imagem e texto fora da .info-box */
 .image-box {
     display: inline-block;
-    width: calc(50% - 30px); /* Aumentar a largura */
+    width: calc(50% - 30px); 
     vertical-align: top;
     margin-left: 30px;
 }
