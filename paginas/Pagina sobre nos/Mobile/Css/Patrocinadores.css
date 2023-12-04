@@ -8,7 +8,6 @@ Patrocinadores
     color: black;
     text-decoration: underline;
     text-align: center;
-    margin-left: 20%;
     margin-right: auto;
 }
 
@@ -25,28 +24,28 @@ Patrocinadores
 
 #logos {
     display: flex;
-    height: 20%;
-    width: 20%;
+    height: 6%;
+    width: 6%;
     margin-top: 10%;
-    margin-left: -40%;
+    /* margin-left: -40%; */
 }
 
 #logos1 {
     display: flex;
-    height: 20%;
-    width: 20%;
+    height: 6%;
+    width: 6%;
     margin-top: 10%;
 }
 #logos2 {
     display: flex;
-    height: 18%;
-    width: 18%;
+    height: 10%;
+    width: 10%;
     margin-top: 10%;
 }
 
-/* .logo-thales {
-    margin-left: 50%;
-} */
+.logo-thales {
+    margin-left: -10%;
+}
 
 /* .logo-firmenich {
     margin-left: 400%;
