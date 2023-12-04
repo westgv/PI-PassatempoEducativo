@@ -2,7 +2,7 @@
     font-family: McLaren;
 }
 .pop-up{
-    font-size: 15px;
+    font-size: 1em;
     width: 70%;
     background-color: #fff;
     position: fixed;
@@ -17,12 +17,16 @@
 .pop-up.mostrar{
     display: block;
 }
-.pop-up .pop-up-txt button{
+.pop-up-btn button{
     padding: 10px 40px;
     background-color: blue;
     color: white;
     font-weight: 700;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: 10px;
+}
+.pop-up .pop-up-txt button{
     transition: 0.3s ease-in-out;
 }
 .pop-up .pop-up-txt{
@@ -30,6 +34,21 @@
     text-align:center;
     padding: 5px;
 }
+.pop-up-txt strong{
+    color: red;
+}
 .pop-up .pop-up-txt button:hover{
     transform: scale(0.9);
+}
+@media(max-width: 1043px) {
+    .pop-up{
+        font-size: 12px;
+
+    }
+}
+@media(max-width: 553px) {
+    .pop-up{
+        font-size: 10px;
+
+    }
 }
