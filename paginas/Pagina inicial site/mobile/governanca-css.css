@@ -1,0 +1,109 @@
+.certificado-txt{
+display: flex;
+align-items: center;
+font-size: 30px;
+}
+.requisitos{
+    display: flex;
+    justify-content: space-around;
+}
+.one{
+        width: 300px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        /* Adiciona uma sombra */
+        background-color: #d0f5f2;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+
+}
+.two{
+        width: 300px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        /* Adiciona uma sombra */
+        background-color: rgb(255, 144, 144);
+        transition: transform 0.3s ease-in-out;
+}
+.three{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra */
+    background-color: rgb(253, 255, 144);
+    transition: transform 0.3s ease-in-out;
+}
+.one:hover{
+    transform: scale(1.1);
+    
+}
+.two:hover{
+    transform: scale(1.1);
+    
+}
+.three:hover{
+    transform: scale(1.1);
+    
+}
+
+.circle-images {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+
+.description {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+
+.circle {
+    text-align: center;
+}
+
+.circle img {
+    background-color: white;
+    width: 150px; 
+    height: 150px; 
+    border-radius: 80%;
+    margin: 0 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.circle p {
+    margin: 15px 0; 
+    font-size: 20px;
+}
+.documentos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.document {
+    width: 30%; 
+    text-align: center;
+    margin: 10px;
+}
+.documentos a:link{
+    color: black;
+    text-decoration: none;
+}
+.documentos{
+    text-align: center;
+    padding: 20px 0;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
