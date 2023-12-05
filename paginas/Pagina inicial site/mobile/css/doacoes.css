@@ -1,0 +1,99 @@
+@font-face {
+    font-family: McLaren;
+    src: url("Fontes/McLaren/McLaren-Regular.ttf");
+}
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    .donation-section {
+        background-color: #333;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .contact-section {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .contact-form {
+        width: 65%;
+        background-color: #fff3cd;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-form h2 {
+        text-align: center;
+        color: #333;
+    }
+
+    .contact-form label {
+        display: block;
+        margin: 10px 0 5px;
+        color: #555;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #FFF3DB;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .contact-form button {
+        background-color: #ffA800;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .contact-info {
+        width: 30%;
+        background-color: #ffe6ad;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-info h2 {
+        text-align: center;
+        color: #333;
+    }
+
+    .contact-info img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .pix{
+        width:200px !important;
+        height: 150px !important;
+    }
+    .contact-info p {
+        margin: 0 0 10px;
+        color: #555;
+    }
+    .contact-section button{
+        transition: 0.3s ease-in-out;
+    }
+    .contact-section button:hover{
+        transform: scale(0.8)
+    }

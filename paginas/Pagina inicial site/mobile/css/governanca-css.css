@@ -7,38 +7,7 @@ font-size: 30px;
     display: flex;
     justify-content: space-around;
 }
-.one{
-        width: 300px;
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        
-        background-color: #d0f5f2;
-        text-align: center;
-        transition: transform 0.3s ease-in-out;
 
-}
-.two{
-        width: 300px;
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      
-        background-color: rgb(255, 144, 144);
-        transition: transform 0.3s ease-in-out;
-}
-.three{
-    width: 300px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* Adiciona uma sombra */
-    background-color: rgb(253, 255, 144);
-    transition: transform 0.3s ease-in-out;
-}
 .one:hover{
     transform: scale(1.1);
     

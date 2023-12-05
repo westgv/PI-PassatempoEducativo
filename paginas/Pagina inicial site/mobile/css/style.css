@@ -1,6 +1,6 @@
 @font-face {
     font-family: McLaren;
-    src: url("Fontes/McLaren/McLaren-Regular.ttf");
+    src: url("../Fontes/McLaren/McLaren-Regular.ttf");
 }
 body {
     font-family: McLaren;
@@ -66,8 +66,35 @@ footer a {
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
     background-color: rgb(255, 144, 144);
+}
+.one{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #d0f5f2;
+    transition: transform 0.3s ease-in-out;
+}
+.two{
+        width: 300px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: rgb(255, 144, 144);
+        transition: transform 0.3s ease-in-out;
+}
+.three{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra */
+    background-color: rgb(253, 255, 144);
+    transition: transform 0.3s ease-in-out;
 }
 .informativo h2 {
     color: #006cfa;
@@ -101,11 +128,11 @@ footer a {
 }
 
 .logotipos a {
-    margin: 10px;
+    margin: 15px;
 }
 
 .logotipos img {
-    max-width: 150px;
+    max-width: 200px;
 
     height: auto;
 }
