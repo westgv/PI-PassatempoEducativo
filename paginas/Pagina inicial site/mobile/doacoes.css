@@ -213,8 +213,7 @@ footer a {
     }
 
     .logotipos img {
-        max-width: 150px;
-        /* Ajuste o tamanho conforme necessário */
+        width: 100%;
         height: auto;
     }
     .text-twitter{
