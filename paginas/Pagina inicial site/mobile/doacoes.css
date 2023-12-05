@@ -1,0 +1,239 @@
+@font-face {
+    font-family: McLaren;
+    src: url("Fontes/McLaren/McLaren-Regular.ttf");
+}
+body {
+    font-family: McLaren;
+    background-color: #f5f2d0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.certificado-txt{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    }
+    .requisitos{
+        display: flex;
+        justify-content: space-around;
+    }
+    .one{
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* Adiciona uma sombra */
+            background-color: #d0f5f2;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+    
+    }
+    .two{
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            /* Adiciona uma sombra */
+            background-color: rgb(255, 144, 144);
+            transition: transform 0.3s ease-in-out;
+    }
+    .three{
+        width: 300px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        /* Adiciona uma sombra */
+        background-color: rgb(253, 255, 144);
+        transition: transform 0.3s ease-in-out;
+    }
+    .one:hover{
+        transform: scale(1.1);
+        
+    }
+    .two:hover{
+        transform: scale(1.1);
+        
+    }
+    .three:hover{
+        transform: scale(1.1);
+        
+    }
+    
+    .circle-images {
+        display: flex;
+        justify-content: space-around; 
+        align-items: center; 
+        margin-top: 20px; 
+    }
+    
+    
+    .description {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 10px; 
+    }
+    
+    
+    .circle {
+        text-align: center;
+    }
+    
+    .circle img {
+        background-color: white;
+        width: 150px; 
+        height: 150px; 
+        border-radius: 80%;
+        margin: 0 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    }
+    
+    .circle p {
+        margin: 15px 0; 
+        font-size: 20px;
+    }
+    .documentos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 20px 0;
+    }
+    .document {
+        width: 30%; 
+        text-align: center;
+        margin: 10px;
+    }
+    .documentos a:link{
+        color: black;
+        text-decoration: none;
+    }
+    .documentos{
+        text-align: center;
+        padding: 20px 0;
+        border: 1px solid #ccc;
+        margin-top: 10px;
+        box-shadow: 0 0 10px rgb(253, 255, 144);
+        margin-bottom: 10px;
+    }
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    .donation-section {
+        background-color: #333;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .contact-section {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .contact-form {
+        width: 65%;
+        background-color: #fff3cd;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-form h2 {
+        text-align: center;
+        color: #333;
+    }
+
+    .contact-form label {
+        display: block;
+        margin: 10px 0 5px;
+        color: #555;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #FFF3DB;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .contact-form button {
+        background-color: #ffA800;
+        color: #FFF3DB;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .contact-info {
+        width: 30%;
+        background-color: #ffe6ad;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-info h2 {
+        text-align: center;
+        color: #333;
+    }
+
+    .contact-info img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
+    }
+
+    .contact-info p {
+        margin: 0 0 10px;
+        color: #555;
+    }
+    .patrocinadores {
+        background-color: #fff3cd;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .titulo-apoio {
+        font-size: 24px;
+        font-weight: bold;
+        color: #000;
+        margin-bottom: 10px;
+    }
+
+    .logotipos {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .logotipos a {
+        margin: 10px;
+        max-width: 100px; 
+        display: inline-block;
+    }
+
+    .logotipos img {
+        width: 100%;
+        height: auto;
+    }
