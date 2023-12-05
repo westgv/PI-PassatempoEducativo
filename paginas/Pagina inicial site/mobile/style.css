@@ -51,9 +51,24 @@ footer a {
     color: red;
 }
 .agenda {
-    left: 2px;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra */
+    background-color: #d0f5f2;
+    text-align: center;
 }
+.informativo{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
+    background-color: rgb(255, 144, 144);
+}
 .informativo h2 {
     color: #006cfa;
 }
@@ -63,7 +78,7 @@ footer a {
     font: size 15px !important;
 }
 
-/* Estilos para a seção de patrocinadores */
+
 .patrocinadores {
     text-align: center;
     padding: 20px 0;
@@ -91,7 +106,7 @@ footer a {
 
 .logotipos img {
     max-width: 150px;
-    /* Ajuste o tamanho conforme necessário */
+
     height: auto;
 }
 .text-twitter{
