@@ -8,7 +8,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 footer {
     background-color: #ffe6ad;
@@ -177,25 +178,28 @@ footer a {
         width: 80px;
         height: 80px;
         margin-bottom: 10px;
+        margin-top: 10px;
     }
-
+    .pix{
+        width:200px !important;
+        height: 150px !important;
+    }
     .contact-info p {
         margin: 0 0 10px;
         color: #555;
     }
     .patrocinadores {
-        background-color: #fff3cd;
-        padding: 20px;
-        border-radius: 10px;
-        margin-top: 20px;
         text-align: center;
+        padding: 20px 0;
+        border: 1px solid #ccc;
+        margin-top: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px;
     }
     
-    .titulo-apoio {
+    .patrocinadores h2 {
         font-size: 24px;
-        font-weight: bold;
-        color: #000;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
     .logotipos {
@@ -238,4 +242,12 @@ footer a {
     .text-flickr {
         color: #0063DC !important;
         /* Cor do Flickr */
+    }
+    .contact-section button{
+        
+        transition: 0.3s ease-in-out;
+        
+    }
+    .contact-section button:hover{
+        transform: scale(0.8);
     }
