@@ -28,7 +28,7 @@ nav{
 main{
     background-color: #f5f2d0 no-repeat center center;
     background-size: cover;
-    height: 92vh;
+    height: auto;
 }
 .nav-list{
     list-style: none;

@@ -3,9 +3,7 @@
     src: url("./McLaren/McLaren-Regular.ttf");
 }
 body {
-    overflow-y: hidden;
     overflow-x: hidden;
-    overflow: hidden;
     padding:0;
     margin:0;
 }
