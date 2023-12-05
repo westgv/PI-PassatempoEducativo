@@ -3,7 +3,7 @@
     src: url("./McLaren/McLaren-Regular.ttf");
 }
 body {
-    overflow-y: auto;
+    overflow-y: hidden;
     overflow-x: hidden;
     overflow: hidden;
     padding:0;
@@ -16,7 +16,6 @@ header {
 #navegador-pagina {
     background-color: #ffb300;
     font-family: McLaren;
-    background-attachment: fixed;
     display: flex;
     height: 15%;
     width: 100%;

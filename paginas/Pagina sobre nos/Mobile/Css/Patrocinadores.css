@@ -19,14 +19,32 @@ Patrocinadores
     margin-left: 30%;
 }
 
-.logo-thales {
+.logo-adeste {
+    height: 125%;
+    width: 125%;
+} 
+
+.logo-firmenich { 
     height: 125%;
     width: 125%;
 }
 
-.logo-firmenich {
+.logo-bayer {
+    height: 80%;
+    width: 80%;
+    margin-left: 38%;
+}
+
+.logo-australian {
     height: 125%;
     width: 125%;
+    margin-left: 25%;
+}
+
+.logo-thales {
+    height: 200%;
+    width: 200%;
+    margin-left: -20%;
 }
 
 .logo-anglo {
@@ -34,28 +52,8 @@ Patrocinadores
     width: 125%;
 }
 
-.logo-australian {
-    height: 125%;
-    width: 125%;
-    margin-top: 22%;
-}
-
-
-.logo-bayer {
-    height: 60%;
-    width: 60%;
-    margin-left: 38%;
-}
-
-
 .logo-TAM {
     height: 125%;
     width: 125%;
     margin-top: -22%;
 }
-
-
-.logo-adeste {
-    height: 125%;
-    width: 125%;
-} 
