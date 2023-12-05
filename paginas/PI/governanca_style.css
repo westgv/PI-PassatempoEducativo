@@ -184,6 +184,9 @@ footer a {
 .footer-logo img {
     max-width: 300px; 
 }
+.col {
+    margin: 10px;
+}   	
 
 
 .social-icon img {
