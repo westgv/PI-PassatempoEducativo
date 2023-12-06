@@ -1,4 +1,7 @@
 /* Parte para os Certificados  */
+*{
+    font-family: McLaren;
+}
 
 #certificados {
     display: flex;

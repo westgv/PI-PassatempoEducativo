@@ -18,6 +18,11 @@ footer a {
     text-decoration: none;
     color: inherit;
 }
+
+footer h6 {
+    text-align: left;
+}
+
 .informacoes {
     text-align: center;
     background-color: rgba(241, 236, 175, 0.431);
@@ -159,3 +164,8 @@ footer a {
     color: #0063DC !important;
     /* Cor do Flickr */
 }
+
+#texto {
+    text-align: left;
+}
+

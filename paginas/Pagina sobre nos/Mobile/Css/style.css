@@ -2,6 +2,11 @@
     font-family: McLaren;
     src: url("./McLaren/McLaren-Regular.ttf");
 }
+
+*{
+    font-family: McLaren;
+}
+
 body {
     font-family: McLaren;
     background-color: #f5f2d0;
