@@ -4,6 +4,12 @@
     display: flex;
     height: auto;
     width: 100%;
+    background-color: white;
+}
+
+.certificado {
+    width: 100%;
+    background-color: white;
 }
 
 #quadrado_certificado {
