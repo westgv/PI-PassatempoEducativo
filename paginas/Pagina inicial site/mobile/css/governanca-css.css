@@ -54,10 +54,12 @@ font-size: 30px;
     font-size: 20px;
 }
 .documentos{
+    color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px 0;
+    text-decoration: none;
 }
 .document {
     width: 30%; 
@@ -65,7 +67,7 @@ font-size: 30px;
     margin: 10px;
 }
 .documentos a:link{
-    color: black;
+    color: black !important;
     text-decoration: none;
 }
 .documentos{
