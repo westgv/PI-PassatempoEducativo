@@ -1,3 +1,19 @@
+<?php
+
+    if(isset($_POST["submit"]))
+    {
+        print_r($_POST['nome']);
+        print_r($_POST['email']);
+        print_r($_POST['cidade']);
+        print_r($_POST['telefone']);
+        print_r($_POST['mensagem']);
+    }
+
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
@@ -60,7 +76,7 @@
                     oi<br>oi<br>oi<br>oi<br></div>
                 <hr>
                 <section class="contact-section">
-                    <form action="#" method="post" class="contact-form">
+                    <form action="formulario.php" method="POST">
                         <h2>Entre em Contato</h2>
                         <label for="nome">Nome:</label>
                         <input type="text" id="nome" name="nome" required="required">
