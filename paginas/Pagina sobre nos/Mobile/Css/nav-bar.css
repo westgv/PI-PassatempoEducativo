@@ -18,14 +18,19 @@ a:hover{
     letter-spacing: 4px;
 }
 
+.logo img{
+    width: 180px;
+    height: auto;
+}
+
 nav{
+    text-transform: uppercase;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: McLaren;
     background-color: #ffb300;
-    height: auto;
-    width: auto;
+    height: 10vh;
 }
 main{
     background-color: #f5f2d0 no-repeat center center;
@@ -35,6 +40,7 @@ main{
 .nav-list{
     list-style: none;
     display: flex;
+    margin-left: 10%;
 }
 .nav-list li{
     letter-spacing: 3px;
