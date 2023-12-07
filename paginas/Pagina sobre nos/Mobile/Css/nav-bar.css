@@ -1,11 +1,15 @@
-*{
+*, *::after, *::before{
     margin: 0;
     padding: 0;
-    font-family: McLaren;
+    box-sizing: border-box;
 }
-
-nav a {
-    color: white;
+.navegador-pagina{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    color: white !important;
+}
+a {
     text-decoration: none;
 }
 a:hover{
@@ -14,23 +18,36 @@ a:hover{
 .logo{
     font: size 24px;
     text-transform: uppercase;
-    height: auto;
     letter-spacing: 4px;
 }
-
+.logo img{
+    width: 180px;
+    height: auto;
+}
+.logo-mobile img{
+    width: 120px;
+    height: auto;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+}
+nav .logo:hover{
+    color: white;
+}
 nav{
+    text-transform: uppercase;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: McLaren;
     background-color: #ffb300;
-    height: auto;
-    width: auto;
+    height: 10vh;
 }
 main{
     background-color: #f5f2d0 no-repeat center center;
     background-size: cover;
-    height: auto;
+    height: 92vh;
 }
 .nav-list{
     list-style: none;
@@ -39,7 +56,6 @@ main{
 .nav-list li{
     letter-spacing: 3px;
     margin-left: 32px;
-    margin-top: 15px;
 }
 .mobile-menu{
     display: none;
@@ -65,7 +81,20 @@ main{
     transition: 0.3s;
 }
 
-@media (max-width: 999px){
+.nav-list :hover{
+    color: black;
+}
+@media (min-width: 701px){
+    .logo-mobile{
+        display: none;
+    }
+}
+@media (max-width: 700px){
+    .logo{
+        display: none;
+    }
+}
+@media (max-width: 1299px){
     body{
         overflow-x: hidden;
     }

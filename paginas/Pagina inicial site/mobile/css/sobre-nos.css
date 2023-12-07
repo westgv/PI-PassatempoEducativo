@@ -1,0 +1,170 @@
+@font-face {
+    font-family: McLaren;
+    src: url("../Fontes/McLaren/McLaren-Regular.ttf");
+}
+body{
+    font-family: McLaren;
+}
+
+.imagem-sobre{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 200%
+}
+.Sobre-Nos{
+    font-size: 18px;
+}
+.Sobre-Nos h1{
+    color: red;
+}
+.eletivas{
+    margin-top: 2%;
+}
+.eletivas h3{
+    color: black;
+}
+.eletivas a{
+    color: red;
+    text-decoration: none;
+}
+.hr{
+    margin-top: 3%;
+    color: black
+}
+
+/* RECONHECIMENTO */
+Página de reconhecimento
+
+*{
+    font-family: McLaren;
+}
+
+#Reconhecimento {
+    margin-top: 6%;
+}
+#quadrado {
+    display:block;
+    background-color: #F1E8E8;
+    width: 80%;
+    height: auto;
+    margin-left: 12%;
+    margin-top: 5%;
+    border: 1px solid #000;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+article#Reconhecimento h1{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.itau-certificado {
+    height: 50%;
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 10%;   
+}
+.itau-texto {
+    box-sizing: border-box;
+    height: 80%;
+    width: auto;
+    margin-top: 2%;
+    margin-bottom: auto;
+    margin-left: 10%;   
+}
+.folhaSp-cetificado {
+    height: 50%;
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 10%; 
+}
+.folhaSP-texto {
+    text-align: left;
+    box-sizing: border-box;
+    width: auto;
+    margin-top: 2%;
+    margin-left: 10%;   
+}
+#australia-certificado {
+    height: 35%;
+    width: 100%;
+}
+.australia-texto {
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    margin-top: 7%;
+    margin-left: 10%;   
+}
+.australia-texto2 {
+    box-sizing: border-box;
+    height: auto;
+    width: auto;
+    margin-top: 5%;
+    margin-left: 15%; 
+}
+
+/* CERTIFICADOS */
+
+#Certificados{
+    display:block;
+    background-color: #F1E8E8;
+    width: 80%;
+    height: auto;
+    margin-left: 12%;
+    margin-top: 5%;
+    border: 1px solid #000;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+#Certificados  h1 {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+}
+
+.certifcado-Phomenta {
+    width: 50%;
+    height: 50%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+
+.imagem-ONG {
+    display: flex;
+    width: 100%;
+}
+
+.certificado-ONG2 {
+    width: 50%;
+    height: 50%;
+    margin-left: 0%;
+}
+
+.certifcado-ONG1 {
+    width: 50%;
+    height: 50%;
+    margin-left: 2%;
+    margin-top: 7%;
+}
+
+.Phomenta-texto {
+    margin-left: 5%;
+}
+
+.Phomenta-texto h2 {
+    color: #0E1E75;
+}
+
+.ONG-texto {
+    margin-left: 5%;
+}
+
+.ONG-texto h2 {
+    color: #A57A0D;
+}
