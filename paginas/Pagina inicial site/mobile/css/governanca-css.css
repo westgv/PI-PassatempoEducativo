@@ -66,7 +66,7 @@ font-size: 30px;
     text-align: center;
     margin: 10px;
 }
-.documentos a:link{
+.document a:link{
     color: black !important;
     text-decoration: none;
 }
@@ -77,4 +77,11 @@ font-size: 30px;
     margin-top: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
+}
+.document:visited{
+    text-decoration: none;
+    color: black;
+}
+.document a:hover,.document a:active{
+    color: black;
 }

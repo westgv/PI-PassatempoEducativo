@@ -18,7 +18,7 @@
     display: block;
 }
 .pop-up-btn button{
-    padding: 10px 40px;
+    padding: 15px 40px;
     background-color: blue;
     color: white;
     font-weight: 700;
@@ -28,10 +28,12 @@
 }
 .pop-up .pop-up-txt button{
     transition: 0.3s ease-in-out;
+    padding: 5px;
+    margin-bottom: 5px;
 }
-.pop-up .pop-up-txt{
+
+.pop-up .pop-up-txt p{
     align-items: center;
-    text-align: left;
     padding: 5px;
 }
 .pop-up-txt strong{
